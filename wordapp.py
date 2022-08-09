@@ -2,6 +2,9 @@ import streamlit as st
 import nltk
 from pymed import PubMed
 import pandas as pd
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 
 st.title('GolemPharm')
