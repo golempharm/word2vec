@@ -43,7 +43,7 @@ if myName:
 
     most_sim = model_ted.wv.most_similar(vv, topn=200)
     most_sim1 = dict(most_sim)
-    db_protein = pd.read_csv('/home/piotr/bialka.csv')
+    db_protein = pd.read_csv('./bialka.csv')
 
     wt2 = db_protein['Gene names'].str.lower().tolist()
     gen = []
